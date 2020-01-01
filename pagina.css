@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#brown;
+}
+#NombreDeLaPagina{
+	background-color:#866E90;;
+	height:2em;
+	width:100%;
+	/*texto*/
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 2em;
+	text-align: center;
+	color:#2E2828;
+	position:fixed;
+	top:0px;
+}
+#barraDeNavegacion{
+	width:100%;
+	margin-top:4em;
+	height:2.6em;
+	background-color:#A9C5BE;
+}
+#barraDeNavegacion > ul{
+	list-style: none;	
+	height:100%;
+	width:60% ;
+	margin-left:auto;
+	margin-right:auto;
+}
+#barraDeNavegacion >ul> a{
+	float:left;
+	background-color:#B5ADAD;
+	width:16.6%;
+	text-decoration: none;
+}
+#barraDeNavegacion > ul > a:hover{
+	background-color: #7C7979;
+}
+
+#barraDeNavegacion >ul >a >li{
+	color:#E3DDDD;
+	font-size:1em;
+	padding-top:0.6em;
+	height:2em;
+	text-align: center;
+}
+
+.ListaSecundaria {
+	list-style: none;
+	display:none;
+	position:none;
+}
+.ListaSecundaria > a{
+	text-decoration: none;
+	
+}
+.ListaSecundaria > a > li{
+	
+}
+
+#Portada{
+	height:50%;
+	width:100%;
+	background-color: #A9C5BE;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 3em;
+}
+#ImagenPortada{
+	height:100%;
+	width:65%;
+	margin-left: auto;
+	margin-right: auto;	
+	padding-top:1%;
+	padding-bottom: 1%;
+}
+#ImagenPortada img{
+	height:400px;
+	width:880px;
+	margin-top:0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#ContenidoPrincipal{
+	width: 65%;
+	height: 70em;
+	margin-left: 8%;
+	background-color:red;
+	float:left;
+}
+.Subtitulos{
+	height:1.5em;
+	width:100%;
+	padding-left:2em;
+	clear:left;
+}
+#Recientes{
+	height: 15em;
+	width: auto;
+}
+.PosteoVistaPrevia{
+	height:90%;
+	width:27%;
+	margin-top:auto;
+	margin-bottom:1em;
+	margin-left:3%;
+	padding-left:1%;;
+	
+	border:5px solid #949191;
+	border-radius: 5px 5px;
+	float:left;
+}
+.PosteoVistaPrevia:hover{
+	border-color:#362E2E;
+}
+#MasVistos{
+	
+	height: 15em;
+	width: 100%;
+}
+#PosteosAleatorios{
+	height: 15em;
+	width: 100%;
+}
+#LateralDerecho{
+	width:17%;
+	height:65em;
+	float:left;
+	background-color:yellow;
+	margin-left:2em;
+}
+.PosteosLaterales{
+	height:10em;
+	width:90%;
+	margin-bottom:auto;
+	margin-top:1em;
+	margin-left:3%;
+	padding-left:1%;;
+	
+	border:5px solid #949191;
+	border-radius: 5px 5px;
+}
+.PosteosLaterales:hover{
+	border-color:#8B5657;
+}
+footer{
+	width:100%;
+	max-width: 1214px;
+	height:2em;
+	clear:left;
+	background-color: #534D4D;
+	color:#E9E8E8;
+	padding-left:10%;
+	padding-top:0.5em;
+	
+}
